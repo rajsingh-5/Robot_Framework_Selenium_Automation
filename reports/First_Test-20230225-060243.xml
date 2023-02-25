@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.7.7 on win32)" generated="20230225 06:02:43.893" rpa="false" schemaversion="3">
+<suite id="s1" name="First Test" source="C:\Users\raj_r\Downloads\10thFeb-main\scripts\First_Test.robot">
+<test id="s1-t1" name="TC1" line="9">
+<kw name="Launch Browser" library="Resource" type="SETUP">
+<kw name="Open Browser" library="baseAction">
+<arg>chrome</arg>
+<msg timestamp="20230225 06:02:44.744" level="INFO">====== WebDriver manager ======</msg>
+<msg timestamp="20230225 06:02:45.872" level="INFO">Get LATEST chromedriver version for google-chrome 110.0.5481</msg>
+<msg timestamp="20230225 06:02:47.458" level="INFO">Driver [C:\Users\raj_r\.wdm\drivers\chromedriver\win32\110.0.5481\chromedriver.exe] found in cache</msg>
+<status status="PASS" starttime="20230225 06:02:44.744" endtime="20230225 06:02:49.784"/>
+</kw>
+<status status="PASS" starttime="20230225 06:02:44.744" endtime="20230225 06:02:49.784"/>
+</kw>
+<kw name="TC1">
+<kw name="Go To Url" library="baseAction">
+<arg>https://demo.automationtesting.in/Frames.html</arg>
+<msg timestamp="20230225 06:02:56.032" level="INFO" html="true">&lt;br&gt;&lt;img src='C:\Users\raj_r\Downloads\10thFeb-main\logs\image_go_to_url_25_02_23_06_02_55.jpeg' width=800px&gt;&lt;br&gt;</msg>
+<status status="PASS" starttime="20230225 06:02:49.792" endtime="20230225 06:02:56.040"/>
+</kw>
+<kw name="Click" library="baseAction">
+<arg>${multiple}</arg>
+<msg timestamp="20230225 06:02:56.384" level="INFO" html="true">&lt;br&gt;&lt;img src='C:\Users\raj_r\Downloads\10thFeb-main\logs\image_click_25_02_23_06_02_56.jpeg' width=800px&gt;&lt;br&gt;</msg>
+<status status="PASS" starttime="20230225 06:02:56.040" endtime="20230225 06:02:56.496"/>
+</kw>
+<kw name="Handle Frame" library="baseAction">
+<arg>1</arg>
+<arg>0</arg>
+<msg timestamp="20230225 06:02:56.817" level="INFO" html="true">&lt;br&gt;&lt;img src='C:\Users\raj_r\Downloads\10thFeb-main\logs\image_handle_frame_25_02_23_06_02_56.jpeg' width=800px&gt;&lt;br&gt;</msg>
+<status status="PASS" starttime="20230225 06:02:56.496" endtime="20230225 06:02:56.817"/>
+</kw>
+<kw name="Send Keys" library="baseAction">
+<arg>xpath|//*[@type="text"]</arg>
+<arg>asdfg</arg>
+<msg timestamp="20230225 06:02:57.202" level="INFO" html="true">&lt;br&gt;&lt;img src='C:\Users\raj_r\Downloads\10thFeb-main\logs\image_send_Keys_25_02_23_06_02_56.jpeg' width=800px&gt;&lt;br&gt;</msg>
+<status status="PASS" starttime="20230225 06:02:56.817" endtime="20230225 06:02:57.320"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230225 06:03:00.332" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230225 06:02:57.320" endtime="20230225 06:03:00.332"/>
+</kw>
+<kw name="Handle Frame" library="baseAction">
+<arg>default</arg>
+<msg timestamp="20230225 06:03:00.598" level="INFO" html="true">&lt;br&gt;&lt;img src='C:\Users\raj_r\Downloads\10thFeb-main\logs\image_handle_frame_25_02_23_06_03_00.jpeg' width=800px&gt;&lt;br&gt;</msg>
+<status status="PASS" starttime="20230225 06:03:00.332" endtime="20230225 06:03:00.598"/>
+</kw>
+<kw name="Click" library="baseAction">
+<arg>xpath|//*[text()="Home"]</arg>
+<msg timestamp="20230225 06:03:00.923" level="INFO" html="true">&lt;br&gt;&lt;img src='C:\Users\raj_r\Downloads\10thFeb-main\logs\image_click_25_02_23_06_03_00.jpeg' width=800px&gt;&lt;br&gt;</msg>
+<status status="PASS" starttime="20230225 06:03:00.598" endtime="20230225 06:03:01.019"/>
+</kw>
+<status status="PASS" starttime="20230225 06:02:49.784" endtime="20230225 06:03:01.019"/>
+</kw>
+<kw name="Close Browser" library="baseAction" type="TEARDOWN">
+<status status="PASS" starttime="20230225 06:03:01.035" endtime="20230225 06:03:03.668"/>
+</kw>
+<status status="PASS" starttime="20230225 06:02:44.744" endtime="20230225 06:03:03.668"/>
+</test>
+<test id="s1-t2" name="TC2" line="11">
+<kw name="Launch Browser" library="Resource" type="SETUP">
+<kw name="Open Browser" library="baseAction">
+<arg>chrome</arg>
+<msg timestamp="20230225 06:03:03.668" level="INFO">====== WebDriver manager ======</msg>
+<msg timestamp="20230225 06:03:05.128" level="INFO">Get LATEST chromedriver version for google-chrome 110.0.5481</msg>
+<msg timestamp="20230225 06:03:06.668" level="INFO">Driver [C:\Users\raj_r\.wdm\drivers\chromedriver\win32\110.0.5481\chromedriver.exe] found in cache</msg>
+<status status="PASS" starttime="20230225 06:03:03.668" endtime="20230225 06:03:08.854"/>
+</kw>
+<status status="PASS" starttime="20230225 06:03:03.668" endtime="20230225 06:03:08.854"/>
+</kw>
+<kw name="TC2">
+<kw name="Go To Url" library="baseAction">
+<arg>https://practice.automationtesting.in/</arg>
+<msg timestamp="20230225 06:03:15.383" level="INFO" html="true">&lt;br&gt;&lt;img src='C:\Users\raj_r\Downloads\10thFeb-main\logs\image_go_to_url_25_02_23_06_03_12.jpeg' width=800px&gt;&lt;br&gt;</msg>
+<status status="PASS" starttime="20230225 06:03:08.854" endtime="20230225 06:03:15.388"/>
+</kw>
+<kw name="Scroll Down" library="baseAction">
+<arg>full</arg>
+<msg timestamp="20230225 06:03:15.842" level="INFO" html="true">&lt;br&gt;&lt;img src='C:\Users\raj_r\Downloads\10thFeb-main\logs\image_scroll_down_25_02_23_06_03_15.jpeg' width=800px&gt;&lt;br&gt;</msg>
+<status status="PASS" starttime="20230225 06:03:15.388" endtime="20230225 06:03:15.842"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230225 06:03:18.845" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230225 06:03:15.842" endtime="20230225 06:03:18.845"/>
+</kw>
+<kw name="Scroll Up" library="baseAction">
+<arg>full</arg>
+<msg timestamp="20230225 06:03:19.390" level="INFO" html="true">&lt;br&gt;&lt;img src='C:\Users\raj_r\Downloads\10thFeb-main\logs\image_scroll_up_25_02_23_06_03_18.jpeg' width=800px&gt;&lt;br&gt;</msg>
+<status status="PASS" starttime="20230225 06:03:18.845" endtime="20230225 06:03:19.390"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230225 06:03:22.401" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230225 06:03:19.390" endtime="20230225 06:03:22.401"/>
+</kw>
+<status status="PASS" starttime="20230225 06:03:08.854" endtime="20230225 06:03:22.401"/>
+</kw>
+<kw name="Close Browser" library="baseAction" type="TEARDOWN">
+<status status="PASS" starttime="20230225 06:03:22.401" endtime="20230225 06:03:24.978"/>
+</kw>
+<status status="PASS" starttime="20230225 06:03:03.668" endtime="20230225 06:03:24.978"/>
+</test>
+<status status="PASS" starttime="20230225 06:02:43.909" endtime="20230225 06:03:24.978"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="First Test">First Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

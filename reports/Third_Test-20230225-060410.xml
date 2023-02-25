@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.7.7 on win32)" generated="20230225 06:04:10.507" rpa="false" schemaversion="3">
+<suite id="s1" name="Third Test" source="C:\Users\raj_r\Downloads\10thFeb-main\scripts\Third_Test.robot">
+<test id="s1-t1" name="TC1" line="8">
+<kw name="Launch Browser" library="Resource" type="SETUP">
+<kw name="Open Browser" library="baseAction">
+<arg>chrome</arg>
+<msg timestamp="20230225 06:04:11.841" level="INFO">====== WebDriver manager ======</msg>
+<msg timestamp="20230225 06:04:13.222" level="INFO">Get LATEST chromedriver version for google-chrome 110.0.5481</msg>
+<msg timestamp="20230225 06:04:14.816" level="INFO">Driver [C:\Users\raj_r\.wdm\drivers\chromedriver\win32\110.0.5481\chromedriver.exe] found in cache</msg>
+<status status="PASS" starttime="20230225 06:04:11.841" endtime="20230225 06:04:16.704"/>
+</kw>
+<status status="PASS" starttime="20230225 06:04:11.841" endtime="20230225 06:04:16.704"/>
+</kw>
+<kw name="TC1">
+<kw name="Go To Url" library="baseAction">
+<arg>https://demo.automationtesting.in/Frames.html</arg>
+<msg timestamp="20230225 06:04:21.801" level="INFO" html="true">&lt;br&gt;&lt;img src='C:\Users\raj_r\Downloads\10thFeb-main\logs\image_go_to_url_25_02_23_06_04_21.jpeg' width=800px&gt;&lt;br&gt;</msg>
+<status status="PASS" starttime="20230225 06:04:16.712" endtime="20230225 06:04:21.801"/>
+</kw>
+<status status="PASS" starttime="20230225 06:04:16.712" endtime="20230225 06:04:21.801"/>
+</kw>
+<kw name="Close Browser" library="baseAction" type="TEARDOWN">
+<status status="PASS" starttime="20230225 06:04:21.801" endtime="20230225 06:04:24.331"/>
+</kw>
+<status status="PASS" starttime="20230225 06:04:11.825" endtime="20230225 06:04:24.331"/>
+</test>
+<status status="PASS" starttime="20230225 06:04:10.507" endtime="20230225 06:04:24.331"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Third Test">Third Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
